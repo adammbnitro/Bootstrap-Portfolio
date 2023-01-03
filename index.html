@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <!-- Icon source code -->
+    <script src="https://kit.fontawesome.com/7fd87938fa.js" crossorigin="anonymous"></script>
+    
+    <!-- Custom css -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <section>
+        <!-- Nav bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">My Portfolio</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                    <a class="nav-link" href="#myskills">Skills <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#mywork">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#aboutme">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li> 
+                </ul>
+                </div>
+            </div>
+          </nav>
+
+          <!-- Jumbotron Section -->
+
+          <header class="jumbotron jumbotron-fluid bg-secondary">
+            <div class="container p-5">
+                <div class="col-lg-11 mx-auto text-white">
+                    <h1 class="display-4">Welcome To My Portfolio!</h1>
+                    <p class="lead">Hi, my name is Adam and I'm a front-end developer. Let's create something awesome together!</p>
+                    <a href="https://github.com/adammbnitro" target="_blank" class="btn btn-primary btn-lg">Github Profile</a>
+                </div>
+            </div>
+          </header>
+
+          <!-- Skills Section -->
+
+          <div class="container">
+            <div class="row d-flex justify-content-around mt-8">
+            <h1 class="my-4" id="myskills">My Skills</h1>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4">
+                    <img class="rounded-circle shadow-4-strong" alt="html icon" src="./images/html-icon.webp" width="140" height="140" />
+                    <h2>HTML</h2>
+                    <p>The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript.</p>
+                    <p><a class="btn btn-primary" href="#" role="button">View Details</a></p>
+                </div>
+                <div class="col-lg-4">
+                    <img class="rounded-circle shadow-4-strong" alt="css icon" src="./images/css-icon.png" width="140" height="140" />
+                    <h2>CSS</h2>
+                    <p>Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.</p>
+                    <p><a class="btn btn-primary" href="#" role="button">View Details</a></p>
+                </div>
+                <div class="col-lg-4">
+                    <img class="rounded-circle shadow-4-strong" alt="javascript icon" src="./images/js-icon.jpg" width="140" height="140" />
+                    <h2>JavaScript</h2>
+                    <p>JavaScript, often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2022, 98% of websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries.</p>
+                    <p><a class="btn btn-primary" href="#" role="button">View Details</a></p>
+                </div>
+                <div class="col-lg-4 mx-auto">
+                    <img class="rounded-circle shadow-4-strong" alt="bootstrap icon" src="./images/bootstrap-icon.png" width="140" height="140" />
+                    <h2>Bootstrap</h2>
+                    <p>Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains HTML, CSS and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.</p>
+                    <p><a class="btn btn-primary" href="#" role="button">View Details</a></p>
+                </div>
+            </div>
+          </div>
+
+          <!-- Work Section -->
+
+          <section class="container">
+            <div class="row d-flex justify-content-around mt-8">
+                <h1 class="my-4" id="mywork">
+                    My Work
+                </h1>
+            </div>
+
+            <div class="row justify-content-between text-center mt-8">
+                <div class="col-lg-5 mx-auto mb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="./images/refactor.png"/>
+                        <div class="card-body">
+                            <h4>Code Refactor</h4>
+                            <p class="card-text">I built this project to improve the accessibility standards of the marketing agency, Horiseon, through the addition of semantic HTML and alt attributes. I also reviewed the code, removing any unneccessary tags or elements for maximum efficiency and easier readability for developers, as well as refining the title of the webpage that appears on the browser tab. Altogether, this enhances the ranking of the site for search engines and decreases advertising costs for the company as a result.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="https://github.com/adammbnitro/module-1-assignment" target="_blank" class="btn btn-primary">Find Out More...</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 mx-auto mb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="./images/portfolio-from-scratch.png"/>
+                        <div class="card-body">
+                            <h4>Portfolio Using CSS</h4>
+                            <p class="card-text">I built this project to display my portfolio using advanced CSS skills such as flexbox layouts, media queries and hover animations. This is designed to showcase my ability to apply the knowledge learnt throughout the bootcamp into a well-structured deployed website, in only a short time. This differs from this portfolio as it was created from scratch without the use of any CSS frameworks that provide design templates for things such as forms, buttons, navigation, and other interface components.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="https://github.com/adammbnitro/module-2-assignment" target="_blank" class="btn btn-primary">Find Out More...</a>
+                        </div>
+                    </div>
+
+                
+
+            </div>
+
+            <div class="row justify-content-between text-center mt-8">
+                <div class="col-lg-5 mx-auto mb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="https://placehold.co/800/limegreen/white?text=Placeholder&font=roboto"/>
+                        <div class="card-body">
+                            <h4>Project 3</h4>
+                            <p class="card-text">An per error nonumy splendide, consulatu persecuti sit no, pro id quaestio adipiscing interesset. Eum an putant mollis consulatu. Vel molestie recteque at, discere facilis ei vim, perfecto temporibus in vim. Ei disputando definitionem sed, eu illud ubique nec. No latine assentior eum, vel ea ceteros appellantur liberavisse. Saepe regione ut sea, qui te dico possit appetere, vis an sanctus argumentum. Per vide elitr electram te.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="" class="btn btn-primary">Find Out More...</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 mx-auto mb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="https://placehold.co/800/limegreen/white?text=Placeholder&font=roboto"/>
+                        <div class="card-body">
+                            <h4>Project 4</h4>
+                            <p class="card-text">An per error nonumy splendide, consulatu persecuti sit no, pro id quaestio adipiscing interesset. Eum an putant mollis consulatu. Vel molestie recteque at, discere facilis ei vim, perfecto temporibus in vim. Ei disputando definitionem sed, eu illud ubique nec. No latine assentior eum, vel ea ceteros appellantur liberavisse. Saepe regione ut sea, qui te dico possit appetere, vis an sanctus argumentum. Per vide elitr electram te.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="" class="btn btn-primary">Find Out More...</a>
+                        </div>
+                    </div>
+
+                
+
+            </div>
+
+          </section>
+
+          <section>
+            <div class="container bg-secondary">
+                <div class="row align-items-center">
+                    <div class="col-lg-5 order-lg-2">
+                        <img class="img-fluid rounded-circle" class="card-img-top" src="./images/curly-hair-man-6528418-5823051.png" />
+                    </div>
+                    <div class="col-lg-7 order-lg-1 text-white">
+                        <div class="p-5">
+                            <h2 class="display-4" id="aboutme">About Me!</h2>
+                            <p>An per error nonumy splendide, consulatu persecuti sit no, pro id quaestio adipiscing interesset. Eum an putant mollis consulatu. Vel molestie recteque at, discere facilis ei vim, perfecto temporibus in vim. Ei disputando definitionem sed, eu illud ubique nec. No latine assentior eum, vel ea ceteros appellantur liberavisse. Saepe regione ut sea, qui te dico possit appetere, vis an sanctus argumentum. Per vide elitr electram te.
+                            </p>
+                            <a href="" class="btn btn-outline-light">
+                                <i class="fa-solid fa-download"></i>
+                                Download My Resume
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </section>
+          
+          <footer class="footer bg-light" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 h-100 text-center mx-auto">
+                        <ul class="list-inline mb-0">
+                            <li class="list-inline-item mr-3">
+                                <a href="https://www.linkedin.com/in/adam-mohamed-benkada-2a047820a/" target="_blank">
+                                    <i class="fab fa-linkedin fa-3x fa-fw">
+                                    </i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item mr-3">
+                                <a href="mailto:adambenkada123@gmail.com" target="_blank">
+                                    <i class="fab fa-google fa-3x fa-fw">
+                                    </i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item mr-3">
+                                <a href="https://github.com/adammbnitro" target="_blank">
+                                    <i class="fab fa-github fa-3x fa-fw">
+                                    </i>
+                                </a>
+                            </li>
+                        </ul>
+                        <p class="text-muted small mb-4 mb-lg-0">&copy; Your Website 2022. Coded by yours truly</p>
+                    </div>
+                </div>
+            </div>
+          </footer>
+
+    </section>
+</body>
+</html>
